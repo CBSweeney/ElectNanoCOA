@@ -1,19 +1,10 @@
-# 🎈 Blank app template
+# COA Generator (Streamlit)
 
-A simple Streamlit app template for you to modify!
+## Local
+pip install -r requirements.txt
+streamlit run streamlit_COA.py
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Hosted (Streamlit Community Cloud)
+- Fork/Push this repo to GitHub.
+- Go to https://share.streamlit.io/
+- "New app" -> Connect your repo -> pick branch and file (streamlit_COA.py)
