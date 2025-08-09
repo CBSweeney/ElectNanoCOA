@@ -1,0 +1,79 @@
+field,value
+accountNumber,123456
+customerName,Customer XYZ
+poNumber,987654
+quoteNumber,123
+orderDate,2024-01-30
+quantityShipped,2000 KG
+shippedDate,2024-02-05
+shippedLocation,"1234 Sales Lane, The North Pole, 12345 Artic Circle, Earth"
+,
+itemName,Nanotubes Galore
+itemSKU,EN-NG-XX-ESD-000-01
+lotNumber,EN-2401-01
+manufacturingLocation,1-FKT
+manufacturingDate,2024-01-01
+testDate,2024-01-01
+expirationDate,2024-01-01
+printDate,2024-01-01
+,
+property1,Specific Gravity
+testMethod1,ASTM D792
+unit1,g/cm3
+lowerLimit1,1.5
+upperLimit1,2
+result1,1.75
+,
+property2,Flexural Strength
+testMethod2,ASTM D790
+unit2,MPa
+lowerLimit2,100
+upperLimit2,–
+result2,200
+,
+property3,Flexural Modulus
+testMethod3,ASTM D790
+unit3,GPa
+lowerLimit3,10
+upperLimit3,–
+result3,15
+,
+property4,Notched Izod Impact
+testMethod4,ASTM D256
+unit4,J/m
+lowerLimit4,30
+upperLimit4,–
+result4,40
+,
+property5,Surface Resistance
+testMethod5,ANSI STM 11.11
+unit5,Ohm
+lowerLimit5,1.00E+06
+upperLimit5,1.00E+08
+result5,1.75E+07
+,
+property6,
+testMethod6,
+unit6,
+lowerLimit6,
+upperLimit6,
+result6,
+,
+property7,
+testMethod7,
+unit7,
+lowerLimit7,
+upperLimit7,
+result7,
+,
+property8,
+testMethod8,
+unit8,
+lowerLimit8,
+upperLimit8,
+result8,
+,
+,
+,
+,
+,
