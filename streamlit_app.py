@@ -59,6 +59,23 @@ CI_COL_WIDTHS = [117, 180, 117, 180]   # [label_L, value_L, label_R, value_R]
 PI_COL_WIDTHS = [117, 180, 117, 180]
 TP_COL_WIDTHS = [174, 120, 60, 80, 80, 80]  # [Property, Test Method, Unit, Lower, Upper, Result]
 
+# Add this near the top of your Streamlit script
+st.markdown(
+    """
+    <style>
+    /* Add top padding so title isn't cut off */
+    .block-container {
+        padding-top: 2rem !important;
+    }
+    /* Optional: adjust font size/weight for title */
+    h1 {
+        margin-top: 0.5rem !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Keys whose values should be rendered as dates (YYYY-MM-DD)
 DATE_KEYS = {
     "orderDate", "shippedDate", "manufacturingDate", "expirationDate", "testDate", "printDate"
@@ -495,7 +512,7 @@ def generate_coa_pdf_vector(
 # ------------------------ Streamlit UI ------------------------ #
 def main():
     st.set_page_config(page_title="COA Generator", layout="wide")
-    st.title("Certificate of Analysis (COA) Generator")
+    st.title("Elect Nano Certificate of Analysis (COA) Generator")
 
     # Compact UI CSS
     st.markdown(
